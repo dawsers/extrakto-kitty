@@ -10,14 +10,14 @@ downloaded [[https://github.com/dawsers/extrakto-kitty][here]].
 
 ** Installation
 
-Simply copy =extrakto-kitty.py= to your kitty configuration directory, or
+Simply copy =extrakto_kitty.py= to your kitty configuration directory, or
 make a link to the script from there. Then you will want to add some key
 mappings to the different functions in your =kitty.conf=. For example:
 
 #+BEGIN_EXAMPLE
-map kitty_mod+y>w kitten extrakto-kitty.py --words
-map kitty_mod+y>p kitten extrakto-kitty.py --paths
-map kitty_mod+y>u kitten extrakto-kitty.py --urls
+map kitty_mod+y>w kitten extrakto_kitty.py --words
+map kitty_mod+y>p kitten extrakto_kitty.py --paths
+map kitty_mod+y>u kitten extrakto_kitty.py --urls
 #+END_EXAMPLE
 
 
